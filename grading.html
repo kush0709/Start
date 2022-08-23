@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script>
+
+                function getGrade() {
+                    var grade = document.getElementById("grade").value;
+                    switch(true) {
+                        case grade>=90:
+                            console.log("A");
+                            break;
+                        case grade<=89 && grade>=80:
+                            console.log("B");
+                            break;
+                        case grade<=79 && grade>=60:
+                            console.log("C");
+                            break;
+                        case grade<=59 && grade>=33:
+                            console.log("D");
+                            break;
+                        default:
+                            console.log("E");
+                            break;
+                    }
+                }
+        </script>
+    </head>
+    <body>
+        <p>1st Javascript program</p> <br> <br>
+        <label for="grade" id="myLable">Enter your grade</label>
+        <input type="text" id="grade" />
+        <button onclick="getGrade()">Get Grade</button>
+    </body>
+</html>

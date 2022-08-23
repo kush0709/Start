@@ -1,0 +1,17 @@
+<html>
+        <script>
+            
+            function  canVote() {
+                var age = document.getElementById("age").value
+                age > 18 
+                ? console.log("true")
+                : console.log("False")
+            }
+        </script>
+        <body>
+            <p>1st Javascript program</p> <br> <br>
+        <label for="age" id="myLable">Enter your age</label>
+        <input type="text" id="age" />
+        <button onclick="canVote()">Get Vote</button>
+        </body>
+</html> 
