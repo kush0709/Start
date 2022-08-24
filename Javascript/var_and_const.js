@@ -1,7 +1,10 @@
 
 (function() {
+    //variable & constant
 
-console.log("Hello")
+    //let & var  -- changes
+
+    
 
 
 
