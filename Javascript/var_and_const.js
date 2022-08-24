@@ -2,9 +2,9 @@
 (function() {
     //variable & constant
 
-    //let & var  -- changes
+    //let & var  -- any value that changes
 
-    
+
 
 
 
