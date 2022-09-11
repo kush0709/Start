@@ -8,5 +8,5 @@
         console.log("stay home");
     }
     }
-console.log(playSchool(20,falue))
+console.log(playSchool(20,false))
 })();
