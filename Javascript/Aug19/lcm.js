@@ -1,6 +1,6 @@
 (function(){
     function getLcm(num1 , num2){
-        let greater = num1>=num2 ?num1 : num2;
+        let greater = num1>=num2 ? num1 : num2;
         while(true){
             if (greater % num1 == 0  && greater % num2 == 0) {
                 break;
