@@ -3,8 +3,8 @@
         let previous = 0;
         let current = 1;
         let output = 0;
-        console.log(previous);
-        console.log(current);
+        console.log(previous);  //0
+        console.log(current);  //1
 
         for (let i = 1; i <= number; i++){
             output = previous + current;
