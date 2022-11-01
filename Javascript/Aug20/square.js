@@ -8,3 +8,4 @@ function calculate() {
     let outputElement = document.getElementById("output");
     outputElement.value = output;
 }
+//we will not use ifie here because we dont want to self execute the code
