@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+            function Power(Base , Exponent) {
+                let counter = Exponent;
+                Output = 1;
+
+                while (counter > 0) {
+                    Output = Output * Base;
+                    counter--;
+                }
+                return Output;
+            }
+
+            function calculate (){
+                let Base = document.getElementById("Base").value;
+                let Exponent = document.getElementById("Exponent").value;
+                document.getElementById("output").value = Power(Base , Exponent);
+            }
+        </script>
+    </head>
+    <body>  
+        <label for="number">Base</label>
+        <input type="text" id="Base" />
+        <label for="number">Exponent</label>
+        <input type="text" id="Exponent" />
+        <button id="submit" onclick="calculate()">Power</button>
+        <br>
+        <br>
+        <label for="number">Your square is</label>
+        <input type="text" id="output" />
+        <p>This is JavaScript Revision</p>
+    </body>
+</html>
